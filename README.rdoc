@@ -13,8 +13,12 @@ Simple javascript file for adding Google Analytics to a site.
 
 == Setup
 
+1. Create a Google Analytics account for your site (here's a good tutorial: http://support.google.com/analytics/bin/answer.py?hl=en&answer=1008015&topic=1726909&ctx=topic)
 1. Replace 'UA-xxxxxxxx-1' in analytics_lib.js with your Google Analytics tracking code
 1. Link to the file from your page
+
+    <script type="text/javascript" src="javascripts/jquery.js"></script>
+    <script type="text/javascript" src="javascripts/analytics_lib.js"></script>
 
 
 == More detail needed?
