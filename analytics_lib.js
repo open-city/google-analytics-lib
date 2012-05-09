@@ -2,7 +2,7 @@
  * Google Analytics Library
  * https://github.com/open-city/google-analytics-lib
  *
- * Copyright 2012, Derek Eder and Open City
+ * Copyright 2012, Nick Rougeux and Derek Eder of Open City
  * Licensed under the MIT license.
  * https://github.com/open-city/google-analytics-lib/wiki/License
  *

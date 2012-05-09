@@ -13,8 +13,6 @@ Simple javascript file for adding Google Analytics to a site.
 
 == Setup
 
-Follow the steps below and you'll be in business with your own map
-
 1. Replace 'UA-xxxxxxxx-1' in analytics_lib.js with your Google Analytics tracking code
 1. Link to the file from your page
 
@@ -40,6 +38,6 @@ Report it here: https://github.com/open-city/google-analytics-lib/issues
 
 == Copyright
 
-Copyright (c) 2012 Derek Eder and Open City. Released under the MIT License.
+Copyright (c) 2012 Nick Rougeux and Derek Eder of Open City. Released under the MIT License.
 
 See LICENSE for details https://github.com/open-city/google-analytics-lib/wiki/License
