@@ -1,0 +1,45 @@
+= Google Analytics Library
+Simple javascript file for adding Google Analytics to a site.
+
+== Features
+
+* one javascript file for all Google Analytics tracking code
+* download, email and external link event tracking
+  
+== Dependencies
+
+* Google Analytics
+* jQuery
+
+== Setup
+
+Follow the steps below and you'll be in business with your own map
+
+1. Replace 'UA-xxxxxxxx-1' in analytics_lib.js with your Google Analytics tracking code
+1. Link to the file from your page
+
+
+== More detail needed?
+
+Contact me via email! Derek Eder mailto:derek.eder@opencityapps.org
+
+
+== Errors / Bugs
+
+If something is not behaving intuitively, it is a bug, and should be reported.
+Report it here: https://github.com/open-city/google-analytics-lib/issues
+
+
+== Note on Patches/Pull Requests
+ 
+* Fork the project.
+* Make your feature addition or bug fix.
+* Commit, do not mess with rakefile, version, or history.
+  * (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
+* Send me a pull request. Bonus points for topic branches.
+
+== Copyright
+
+Copyright (c) 2012 Derek Eder and Open City. Released under the MIT License.
+
+See LICENSE for details https://github.com/open-city/google-analytics-lib/wiki/License
