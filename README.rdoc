@@ -9,7 +9,8 @@ Simple javascript file for adding Google Analytics to a site.
 == Dependencies
 
 * Google Analytics
-* jQuery
+* jQuery (http://docs.jquery.com/Downloading_jQuery#Download_jQuery)
+* jQuery hashchange by Ben Alman (http://benalman.com/projects/jquery-hashchange-plugin/)
 
 == Setup
 
@@ -18,6 +19,7 @@ Simple javascript file for adding Google Analytics to a site.
 1. Link to the file from your page
 
     <script type="text/javascript" src="javascripts/jquery.js"></script>
+    <script type="text/javascript" src="javascripts/jquery.ba-hashchange.js"></script>
     <script type="text/javascript" src="javascripts/analytics_lib.js"></script>
 
 

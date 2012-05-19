@@ -7,7 +7,7 @@
  * https://github.com/open-city/google-analytics-lib/wiki/License
  *
  * Date: 5/9/2012
- * 
+ *
  */
 
 var analyticsTrackingCode = 'UA-xxxxxxxx-1'; //enter your tracking code here
@@ -27,7 +27,7 @@ _trackClickEventWithGA = function (category, action, label) {
     _gaq.push(['_setAccount', analyticsTrackingCode]);
 		_gaq.push(['_trackEvent', category, action, label]);
 };
- 
+
 jQuery(function () {
 
 	jQuery('a').click(function () {
@@ -48,5 +48,9 @@ jQuery(function () {
 		if (href.match(/^mailto:/i)) {
 			_trackClickEventWithGA("Emails", "Click", href);
 		}
+
+    $(window).hashchange( function(){
+      _gaq.push(['_trackPageview',location.pathname + location.search  + location.hash]);
+    });
 	});
 });
